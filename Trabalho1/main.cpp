@@ -7,6 +7,7 @@ using namespace std;
 
 double X1, Y1, X2, Y2;
 
+
 void setPixel(int x, int y)
 {
     glBegin(GL_POINTS);
