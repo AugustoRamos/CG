@@ -1,0 +1,25 @@
+Algoritmo DDA(x1, y1, x2, y2: Inteiros)
+    Variáveis
+    dx, dy, iter, k: inteiros
+    x_inc, y_inc, x, y: reais
+Início
+    dx = x2 – x1
+    dy = y2 – y1
+    Se abs(dx) > abs(dy) Então
+        iter = abs(dx)
+    Senão
+        iter = abs(dy)
+    Fim_Se
+
+    x_inc = dx/iter
+    y_inc = dy/iter
+    x = x1
+    y = y1
+
+    SetPixel(round(x), round(y))
+    Para k = 1 Até iter Faça
+        x = x + x_inc
+        y = y + y_inc
+        SetPixel(round(x), round(y))
+    Fim_Para
+Fim
