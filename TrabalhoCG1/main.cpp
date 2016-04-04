@@ -9,6 +9,9 @@ using namespace std;
 #include <GL/glut.h>
 #include <math.h>
 
+#define window_wide 1300
+#define window_height 700
+
 using namespace std;
 
 int x1, Y1, x2, y2, dx, dy, iter, radius, xCenter, yCenter;
@@ -151,7 +154,7 @@ void configureGL(int argc, char **argv){
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     /* Set the initial window position and size */
     glutInitWindowPosition(0,0);
-    glutInitWindowSize(600,600);
+    glutInitWindowSize(window_wide,window_height);
     /* Create the window with title "Visualização" */
     glutCreateWindow("Visualização");
     /* Initialize drawing colors */
