@@ -1,0 +1,26 @@
+-----------------Tempo de execução nos algoritmos-------------------
+
+----------------------------dda-------------------------------------
+
+
+real	0m32.993s
+user	0m0.036s
+sys	0m0.028s
+
+----------------------------Bresenham for lines---------------------
+
+
+
+real	0m20.407s
+user	0m0.028s
+sys	0m0.040s
+
+----------------------------Bresenham for circles-------------------
+
+Bresenham for circles
+
+real	0m20.955s
+user	0m0.052s
+sys	0m0.240s
+
+
