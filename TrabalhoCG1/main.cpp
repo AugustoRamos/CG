@@ -86,7 +86,7 @@ void dda(void){
     glBegin(GL_POINTS);
     setPixel(x,y);
 
-    for (int i = 0; i < iter; ++i) {
+    for (int i = 1; i < iter; ++i) {
         x = x+x_inc;
         y = y+y_inc;
         setPixel(round(x), round(y));
